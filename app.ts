@@ -1,10 +1,16 @@
-function addNumber(n1: number, n2: number){
-    return n1 + n2;
+const person  = {
+  name: 'John',
+  age: 44  ,
+  hobbies: [ 'Sports', 'Cooking'],
+  role: [2, 'author']
+};
+
+let favouriteActivities: string[];
+
+
+
+console.log(person)
+
+for(const hobby of person.hobbies){
+    console.log(hobby.toLocaleUpperCase());
 }
-
-const number1 = 5;
-const number2 = 2.8;
-
- const result = addNumber(number1, number2);
-
- console.log(result)
