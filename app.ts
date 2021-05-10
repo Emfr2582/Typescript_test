@@ -19,3 +19,4 @@ function combined(input1: number | string, input2: number | string, conversionTy
 const combinedAges = combined(30, 44, 'as-number');
 
 console.log(combinedAges)
+
